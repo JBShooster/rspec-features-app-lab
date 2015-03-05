@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'weather/index'
-
   root 'weather#index'
+  get 'weather/index'
+  get 'weather/search'
 end
